@@ -101,7 +101,6 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--rose); outline-
 .hero-art__bloom--four { top: 80%; right: 19%; transform: rotate(-10deg) scale(0.9); }
 .hero-art__bloom--five { top: 17%; left: 24%; transform: rotate(8deg) scale(0.68); }
 .hero-art__bloom--six { top: 57%; left: 7%; transform: rotate(22deg) scale(0.58); }
-.hero-art__moon { position: absolute; top: 17%; left: 22%; width: 35px; aspect-ratio: 1; border-radius: 50%; background: var(--gold-light); box-shadow: 12px -7px 0 1px var(--green-deep); }
 .hero-art__monogram { display: flex; align-items: center; gap: 15px; margin-top: 34px; color: var(--gold-light); font-family: var(--arabic); font-size: clamp(50px, 6vw, 76px); }
 .hero-art__monogram i { display: block; width: 1px; height: 54px; background: var(--rose); transform: rotate(18deg); }
 .hero-art__caption { margin-top: 10px; color: rgba(250, 248, 241, 0.78); font-family: var(--serif); font-size: 19px; font-style: italic; }
