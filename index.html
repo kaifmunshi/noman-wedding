@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#173b34" />
+    <meta name="description" content="An invitation to celebrate the wedding of Noman and Humera." />
+    <title>Noman &amp; Humera | A Wedding Invitation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="is-locked">
+    <div class="entry-screen" id="entry-screen" aria-label="Wedding invitation">
+      <div class="entry-screen__inner">
+        <p class="entry-screen__bismillah" lang="ar" dir="rtl">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+        <span class="entry-screen__rule" aria-hidden="true"></span>
+        <p class="entry-screen__overline">A joyful beginning</p>
+        <p class="entry-screen__names">Noman <span>&amp;</span> Humera</p>
+        <p class="entry-screen__invite">You are warmly invited to celebrate with us</p>
+        <button class="open-button" id="open-invitation" type="button">
+          <span class="open-button__icon" aria-hidden="true">✳</span>
+          <span>Open invitation</span>
+        </button>
+        <p class="entry-screen__hint">With love, in the name of Allah</p>
+      </div>
+      <div class="door door--left" aria-hidden="true"><span class="door__ornament">✳</span></div>
+      <div class="door door--right" aria-hidden="true"><span class="door__ornament">✳</span></div>
+      <span class="entry-screen__corner entry-screen__corner--top" aria-hidden="true"></span>
+      <span class="entry-screen__corner entry-screen__corner--bottom" aria-hidden="true"></span>
+    </div>
+
+    <div class="site" id="site" aria-hidden="true" inert>
+      <header class="site-header">
+        <a class="wordmark" href="#home" aria-label="Noman and Humera, home">
+          <span class="wordmark__initials">N <span>&amp;</span> H</span>
+          <span class="wordmark__sub">Together, by the grace of Allah</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#celebration">The celebration</a>
+          <a href="#invitation">Your invitation</a>
+          <a href="#details">Details</a>
+        </nav>
+        <a class="header-link" href="#details">Our day <span aria-hidden="true">↗</span></a>
+      </header>
+      <div class="flower-shower" id="flower-shower" aria-hidden="true"></div>
+
+      <main id="home">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-art" aria-hidden="true">
+            <span class="hero-art__sun"></span>
+            <span class="hero-art__bloom hero-art__bloom--one"></span>
+            <span class="hero-art__bloom hero-art__bloom--two"></span>
+            <span class="hero-art__bloom hero-art__bloom--three"></span>
+            <span class="hero-art__bloom hero-art__bloom--four"></span>
+            <span class="hero-art__bloom hero-art__bloom--five"></span>
+            <span class="hero-art__bloom hero-art__bloom--six"></span>
+            <div class="hero-art__arch">
+              <span class="hero-art__moon"></span>
+              <span class="hero-art__spark hero-art__spark--one">✳</span>
+              <span class="hero-art__spark hero-art__spark--two">✳</span>
+              <span class="hero-art__monogram" lang="ar" dir="rtl">ن <i></i> ح</span>
+              <span class="hero-art__caption">A union of hearts</span>
+            </div>
+            <span class="hero-art__side-note">بِسْمِ اللَّهِ</span>
+          </div>
+          <div class="hero__copy">
+            <p class="eyebrow"><span aria-hidden="true">✳</span> In the name of Allah, the Most Merciful</p>
+            <h1 id="hero-title">Noman <span class="hero__ampersand">&amp;</span><br />Humera</h1>
+            <p class="hero__description">With grateful hearts and the blessings of our families, we invite you to share in the joy of our wedding.</p>
+            <a class="text-link" href="#celebration">Come celebrate with us <span aria-hidden="true">↓</span></a>
+          </div>
+          <span class="hero__index" aria-hidden="true">A new chapter · 01</span>
+        </section>
+
+        <section class="opening-note" id="celebration" aria-labelledby="note-title">
+          <div class="section-index"><span>01</span><span class="section-index__line"></span><span>OUR CELEBRATION</span></div>
+          <div class="opening-note__content">
+            <p class="arabic-verse" lang="ar" dir="rtl">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا</p>
+            <h2 id="note-title">A promise. A prayer.<br /><em>A lifetime together.</em></h2>
+            <p class="opening-note__body">Every beautiful beginning is made brighter by the people we love. We would be honoured to have you with us as Noman and Humera begin their life together.</p>
+            <span class="opening-note__flower" aria-hidden="true">✳</span>
+          </div>
+          <div class="opening-note__date" aria-live="polite">
+            <span class="opening-note__date-label">COUNTING DOWN TO</span>
+            <strong id="date-label">A date to be announced</strong>
+          </div>
+        </section>
+
+        <section class="countdown-section" aria-labelledby="countdown-title">
+          <div class="countdown-section__heading">
+            <p class="eyebrow">Next up · Nikah</p>
+            <h2 id="countdown-title">The Nikah<br />begins in</h2>
+          </div>
+          <div class="countdown" aria-label="Countdown to the Nikah">
+            <div class="countdown__unit"><span class="countdown__number" data-unit="days">--</span><span class="countdown__label">Days</span></div>
+            <span class="countdown__separator" aria-hidden="true">:</span>
+            <div class="countdown__unit"><span class="countdown__number" data-unit="hours">--</span><span class="countdown__label">Hours</span></div>
+            <span class="countdown__separator" aria-hidden="true">:</span>
+            <div class="countdown__unit"><span class="countdown__number" data-unit="minutes">--</span><span class="countdown__label">Minutes</span></div>
+            <span class="countdown__separator" aria-hidden="true">:</span>
+            <div class="countdown__unit"><span class="countdown__number" data-unit="seconds">--</span><span class="countdown__label">Seconds</span></div>
+          </div>
+          <p class="countdown-note" id="countdown-note">Ahmedabad local time · IST</p>
+          <span class="countdown-section__motif" aria-hidden="true">✳</span>
+        </section>
+
+        <section class="invitation-section" id="invitation" aria-labelledby="invitation-title">
+          <div class="section-index"><span>02</span><span class="section-index__line"></span><span>A LITTLE SURPRISE</span></div>
+          <div class="invitation-section__layout">
+            <div class="invitation-section__copy">
+              <p class="eyebrow">A message, just for you</p>
+              <h2 id="invitation-title">The best things<br />are <em>shared.</em></h2>
+              <p>There’s a little blessing waiting beneath the gold. Give the card a gentle scratch to uncover your message.</p>
+              <span class="invitation-section__arabic" lang="ar" dir="rtl">مَرْحَبًا بِكُمْ</span>
+            </div>
+            <div class="scratch-card">
+              <div class="scratch-card__message" id="scratch-message" aria-live="polite">
+                <span class="scratch-card__message-star" aria-hidden="true">✳</span>
+                <p class="scratch-card__message-title">A place is saved for you</p>
+                <p>May Allah fill this new chapter with love, laughter and countless blessings. We can’t wait to celebrate together.</p>
+                <span class="scratch-card__message-names">With love, Noman &amp; Humera</span>
+              </div>
+              <button class="scratch-card__cover" id="scratch-cover" type="button" aria-label="Scratch to reveal your personal invitation message" aria-describedby="scratch-instructions">
+                <canvas class="scratch-card__canvas" id="scratch-canvas" aria-hidden="true"></canvas>
+                <span class="scratch-card__hint" id="scratch-instructions">Scratch to reveal <span aria-hidden="true">✳</span></span>
+              </button>
+              <p class="scratch-card__footnote">A little wish, wrapped in gold</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="details-section" id="details" aria-labelledby="details-title">
+          <div class="section-index"><span>03</span><span class="section-index__line"></span><span>WHEN &amp; WHERE</span></div>
+          <div class="details-section__intro">
+            <p class="eyebrow">Two days · one celebration</p>
+            <h2 id="details-title">Join us for<br /><em>the celebration.</em></h2>
+            <p>With the blessings of Allah, we invite you to celebrate the Nikah and reception with us in Ahmedabad.</p>
+          </div>
+          <div class="event-grid">
+            <article class="event-card event-card--nikah">
+              <time class="event-card__date" datetime="2026-11-20T17:00:00+05:30">
+                <span>Friday</span><strong>20</strong><span>November · 2026</span>
+              </time>
+              <div class="event-card__body">
+                <p class="event-card__eyebrow">Day one · Nikah</p>
+                <h3>Nikah</h3>
+                <div class="event-card__detail">
+                  <span class="event-card__icon" aria-hidden="true">◷</span>
+                  <p><span>TIME</span><strong>5:00 PM onwards</strong></p>
+                </div>
+                <div class="event-card__detail">
+                  <span class="event-card__icon" aria-hidden="true">⌖</span>
+                  <p><span>VENUE</span><strong>Gazala Party Plot</strong><small>TP-85, Juhapura, Ahmedabad</small></p>
+                </div>
+                <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Gazala%20Party%20Plot%20TP-85%2C%20Juhapura%2C%20Ahmedabad" target="_blank" rel="noopener noreferrer" aria-label="Open Gazala Party Plot in Google Maps">
+                  <span class="map-link__icon" aria-hidden="true">↗</span> Open location
+                </a>
+              </div>
+              <span class="event-card__flower" aria-hidden="true"></span>
+            </article>
+            <article class="event-card event-card--reception">
+              <time class="event-card__date" datetime="2026-11-21">
+                <span>Saturday</span><strong>21</strong><span>November · 2026</span>
+              </time>
+              <div class="event-card__body">
+                <p class="event-card__eyebrow">Day two · Reception</p>
+                <h3>Reception</h3>
+                <div class="event-card__detail">
+                  <span class="event-card__icon" aria-hidden="true">⌖</span>
+                  <p><span>VENUE</span><strong>Rifle Club</strong><small>Khanpur, Ahmedabad</small></p>
+                </div>
+                <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Rifle%20Club%2C%20Khanpur%2C%20Ahmedabad" target="_blank" rel="noopener noreferrer" aria-label="Open Rifle Club in Google Maps">
+                  <span class="map-link__icon" aria-hidden="true">↗</span> Open location
+                </a>
+              </div>
+              <span class="event-card__flower" aria-hidden="true"></span>
+            </article>
+          </div>
+          <div class="details-section__note"><span aria-hidden="true">✳</span> Your presence and duas are our greatest gift.</div>
+        </section>
+
+        <section class="closing" aria-labelledby="closing-title">
+          <span class="closing__ornament" aria-hidden="true">✳</span>
+          <p class="eyebrow">Until we celebrate together</p>
+          <h2 id="closing-title">With love<br />and <em>duas.</em></h2>
+          <p>Thank you for being part of our story.<br />Your prayers mean the world to us.</p>
+          <div class="closing__names">Noman <span>&amp;</span> Humera</div>
+          <p class="closing__arabic" lang="ar" dir="rtl">بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا</p>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <a class="wordmark wordmark--footer" href="#home">
+          <span class="wordmark__initials">N <span>&amp;</span> H</span>
+          <span class="wordmark__sub">A celebration of love and faith</span>
+        </a>
+        <span class="site-footer__blessing" lang="ar" dir="rtl">بِسْمِ اللَّهِ</span>
+        <a class="site-footer__top" href="#home">Back to the beginning <span aria-hidden="true">↑</span></a>
+      </footer>
+    </div>
+  </body>
+</html>
